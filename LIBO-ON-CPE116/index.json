@@ -1,0 +1,7 @@
+{
+  "player_id": "white",
+  "action": "move",
+  "from_pos": "e2",
+  "to_pos": "e4",
+  "timestamp": "12:00:01"
+}

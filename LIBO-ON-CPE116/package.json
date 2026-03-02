@@ -1,0 +1,12 @@
+{
+  "name": "libo-on-cpe116",
+  "version": "1.0.0",
+  "description": "Static LAN chess project",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {},
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {}
+}

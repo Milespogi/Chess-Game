@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAN Chess - Multiplayer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <header>
+            <h1>LAN Chess <span id="connection-status">(Connected)</span></h1>
+        </header>
+
+        <main>
+            <div id="chess-board" class="board">
+                </div>
+
+            <aside class="game-info">
+                <div class="turn-indicator" id="turn-display">White's Turn</div>
+                <div class="move-history">
+                    <h3>Move History</h3>
+                    <ul id="move-list">
+                        <li>1. e4 e5</li>
+                        <li>2. Nf3 Nc6</li>
+                    </ul>
+                </div>
+                <button id="resign-btn">Resign</button>
+                <div id="checkmate-overlay" class="overlay hidden">
+    <div class="overlay-content">
+        <h1>CHECKMATE!</h1>
+        <p id="winner-text">White Wins</p>
+        <button onclick="location.reload()">Play Again</button>
+    </div>
+</div>
+            </aside>
+        </main>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
